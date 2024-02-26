@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">حسابي</string>
+
+    <string name="str_about">عن البرنامج</string>
+    <string name="str_about_text">تم تجربة بعض اساسيات بناء برامح الاندرويد باستخدام لغة  الجافا</string>
+
+    <string name="str_about_web">المطور :سلطان الشجيفي skmain850@gmail.com</string>
+
+
+
+    <string name="str_ok">موافق</string>
+    <string name="str_edit"> تعديل</string>
+    <string name="str_delete">حذف</string>
+    <string name="str_sure_delete">هل ترغب في الحذف؟</string>
+    <string name="str_item">عنصر</string>
+    <string name="str_items"> عناصر</string>
+    <string name="str_selected_items">العناصر المحددة</string>
+
+    <string name="str_notification">إشعار</string>
+    <string name="str_warning">تحذير</string>
+    <string name="str_error">خطأ</string>
+
+
+    <string name="str_open">فتح</string>
+    <string name="str_close">إغلاق</string>
+    <string name="str_back">العودة</string>
+    <string name="str_save">حفظ</string>
+    <string name="str_cancel">إلغاء</string>
+    <string name="str_share">مشاركة</string>
+    <string name="str_save_as">حفظ كـ</string>
+    <string name="str_export">تصدير</string>
+    <string name="str_deal_details"> التفاصيل</string>
+    <string name="str_deal_date">التاريخ</string>
+    <string name="str_deal_amount">المبلغ</string>
+    <string name="str_deal_budget">الميزانية</string>
+    <string name="str_status">الحالة</string>
+    <string name="str_public_account">عام</string>
+    <string name="str_special_account">العملاء</string>
+
+    <string name="str_total_money">إجمالي المبلغ</string>
+    <string name="str_order_by">ترتيب حسب</string>
+    <string name="str_search">بحث</string>
+    <string name="str_add">إضافة</string>
+    <string name="str_add_new">إضافة جديدة</string>
+    <string name="str_money">000.00</string>
+    <string name="str_date">00-05-2023</string>
+    <string name="str_for_any">لهذا السبب في</string>
+    <string name="str_for_it">عليك</string>
+    <string name="str_for_you">لك</string>
+    <string name="str_in">لك</string>
+    <string name="str_out">عليك</string>
+    <string name="add_account_dialog_title">هل ترغب في إضافة هذا الاسم؟</string>
+    <string name="str_time">الوقت</string>
+    <string name="str_add_amount">اضافة مبلغ</string>
+
+
+    <string name="str_backup">عمل نسخة احتياطية</string>
+    <string name="str_restoreDB">الحصول على نسخة احتياطية</string>
+    <string name="str_setting">الإعدادات</string>
+    <string name="str_name">الاسم</string>
+    <string name="str_deal_count">عدد المعاملات</string>
+    <string name="str_report_all">التقرير العام</string>
+    <string name="str_report_details">تقرير التفاصيل</string>
+    <string name="str_success">نجاح</string>
+    <string name="str_failed">فشل</string>
+    <string name="str_done">تم</string>
+    <string name="str_not_done">لم يتم</string>
+    <string name="str_wait">انتظر ...</string>
+    <string name="str_exel">إكسل</string>
+    <string name="str_sms">رسالة نصية قصيرة (SMS)</string>
+    <string name="str_image">صورة</string>
+    <string name="str_not_found">غير موجود</string>
+    <string name="str_wait_dots">...</string>
+    <string name="str_backing_up">عملية النسخ الاحتياطي</string>
+    <string name="str_restoring">عملية الاستعادة</string>
+
+
+
+
+
+
+
+    <!--    for calc-->
+
+
+    <string name="oneText">1</string>
+    <string name="twoText">2</string>
+    <string name="threeText">3</string>
+    <string name="fourText">4</string>
+    <string name="fiveText">5</string>
+    <string name="sixText">6</string>
+    <string name="sevenText">7</string>
+    <string name="eightText">8</string>
+    <string name="nineText">9</string>
+    <string name="zeroText">0</string>
+
+
+
+    <string name="clearText">C</string>
+    <string name="parenthesesOpenText">)</string>
+    <string name="parenthesesCloseText">(</string>
+    <string name="dinideText">÷</string>
+    <string name="multiplateText">×</string>
+    <string name="addationText">+</string>
+    <string name="subtractionText">-</string>
+    <string name="equalText">=</string>
+    <string name="dotText">.</string>
+    <string name="backspaceText"> </string>
+
+</resources>

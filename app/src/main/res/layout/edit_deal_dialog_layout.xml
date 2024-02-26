@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+
+    android:layoutDirection="ltr"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:textDirection="ltr"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_edit_deal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:id="@+id/tv_edit_deals_account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.453"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:backgroundTint="@color/black"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_edit_deals_account_name" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/et_edit_deal_amount"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+
+
+
+            android:hint="@string/str_money"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cl_edit_deal" />
+
+
+        <ImageView
+            android:id="@+id/iv_edit_deal_calculator"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/et_edit_account_deal_details"
+            app:layout_constraintEnd_toStartOf="@+id/et_edit_deal_amount"
+            app:layout_constraintTop_toBottomOf="@id/cl_edit_deal"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_calculator_red" />
+
+        <TextView
+            android:id="@+id/et_edit_deal_deal_date_t1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="12dp"
+
+            android:ems="10"
+            android:hint="@string/str_date"
+            android:inputType="date"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/iv_edit_deal_calculator"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cl_edit_deal" />
+
+        <EditText
+            android:id="@+id/et_edit_account_deal_details"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            android:ems="10"
+            android:hint="@string/str_deal_details"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@id/l_e_i_c"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/iv_edit_deals_deal_camera_img"
+            app:layout_constraintTop_toBottomOf="@id/et_edit_deal_amount" />
+
+        <ImageView
+            android:id="@+id/iv_edit_deals_deal_camera_img"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toTopOf="@+id/l_e_i_c"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_camera_red" />
+
+        <LinearLayout
+            android:id="@+id/l_e_i_c"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:maxHeight="280dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_edit_account_deal_details">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_edit_deals_deal_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="2dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    tools:srcCompat="@tools:sample/avatars" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="120"-->
+<!--            android:layout_height="40dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/btn_save_on_account_deals">-->
+
+<!--           -->
+<!--        </LinearLayout>-->
+
+        <Button
+            android:id="@+id/btn_save_for_account_deals"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:backgroundTint="@color/InverseSurfaceVariant"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/str_save"
+            android:textColor="@color/white"
+
+            app:layout_constraintTop_toBottomOf="@id/l_e_i_c"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <RadioButton
+            android:id="@+id/rBtn_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_weight="1"
+            android:text="@string/str_for_you"
+
+            android:textDirection="inherit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_save_for_account_deals"
+            app:layout_constraintTop_toBottomOf="@+id/l_e_i_c"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <RadioButton
+            android:id="@+id/rBtn_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="@string/str_for_it"
+            android:textDirection="inherit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/rBtn_in"
+            app:layout_constraintTop_toBottomOf="@id/l_e_i_c"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

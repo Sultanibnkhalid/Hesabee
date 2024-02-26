@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item        android:id="@+id/mi_delete_deal"
+        android:title="Settings"
+        android:icon="@drawable/vc_delete"
+        app:showAsAction="always"
+
+        />
+
+    <item        android:id="@+id/mi_edit_deal"
+        android:title="edit"
+        android:icon="@drawable/img_edit"
+        app:showAsAction="always"
+        />
+<!--    replace with three dots-->
+    <item        android:id="@+id/mi_share_deal"
+        android:title="Profile"
+        android:icon="@drawable/vc_menu"
+        app:showAsAction="always"
+
+        />
+</menu>

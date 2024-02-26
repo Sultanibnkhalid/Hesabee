@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+
+    app:cardCornerRadius="2dp"
+    android:layout_marginTop="1dp"
+    android:paddingEnd="5dp"
+    android:background="@drawable/app_background"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:minHeight="40dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_details_deal_date"
+            android:layout_width="80dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="2dp"
+
+            android:layout_marginEnd="14dp"
+            android:gravity="center"
+            android:text="@string/str_date"
+            android:textColor="@color/black"
+            android:textDirection="locale"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/tv_details_deal_amount"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv_details_deal_amount"
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:text="@string/str_money"
+            android:gravity="center"
+            android:textColor="@color/blueBlack"
+            android:textDirection="locale"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_details_deal_details"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.363" />
+
+        <TextView
+            android:id="@+id/tv_details_deal_details"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+
+            android:text="@string/str_for_any"
+            android:textAlignment="center"
+            android:textDirection="locale"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_details_deal_type"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/iv_details_deal_type"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_details_budget"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.10"
+            app:srcCompat="@drawable/ic_up_navigate_green" />
+
+        <TextView
+            android:id="@+id/tv_details_budget"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+           android:gravity="center"
+            android:text="@string/str_money"
+            android:textDirection="locale"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+              <item
+                    android:id="@+id/mn_add_amount"
+                    android:title="@string/str_add_amount"
+                    android:icon="@drawable/vc_plus"
+
+                    />
+
+            <item
+                android:id="@+id/mn_total_repo"
+                android:title="@string/str_report_all"
+                android:icon="@color/black"
+
+
+                />
+
+
+            <item
+                android:id="@+id/mn_backup"
+                android:title="@string/str_backup"
+                android:icon="@drawable/img_sync"
+
+
+                />
+
+            <item
+                android:id="@+id/mn_restore_backup"
+                android:title="@string/str_restoreDB"
+                android:icon="@drawable/img_sync"
+                />
+
+
+
+            <item
+                android:id="@+id/mn_setting"
+                android:title="@string/str_setting"
+                android:icon="@drawable/img_search_brown"
+                />
+            <item
+                android:id="@+id/mn_about"
+                android:title="@string/str_about"
+                android:icon="@drawable/about_blue"
+                />
+<!--            <item-->
+<!--              android:id="@+id/mn_get_backup"-->
+<!--              android:title="total repo"-->
+<!--              android:icon="@color/black"-->
+<!--            />-->
+<!--            <item-->
+<!--                android:id="@+id/mn_make_backup_to_drive"-->
+<!--                android:title="total repo"-->
+<!--                android:icon="@color/black"-->
+<!--                />-->
+
+<!--            <item-->
+<!--                android:id="@+id/mn_settings"-->
+<!--                android:title="total repo"-->
+<!--                android:icon="@color/black"-->
+<!--                />-->
+
+<!--            <item-->
+<!--                    android:id="@+id/mn_connect_support"-->
+<!--                    android:title="total repo"-->
+<!--                    android:icon="@color/black"-->
+<!--                    />-->
+<!--            <item-->
+<!--                    android:id="@+id/mn_about"-->
+<!--                    android:title="total repo"-->
+<!--                    android:icon="@color/black"-->
+<!--                    />-->
+
+<!--            <item-->
+<!--                    android:id="@+id/mn_exit"-->
+<!--                    android:title="total repo"-->
+<!--                    android:icon="@color/black"-->
+<!--        />-->
+
+</menu>

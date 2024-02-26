@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">HESABEE</string>
+
+    <string name="str_ok">OK</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_sure_delete">Do you want to delete</string>
+    <string name="str_item">Item</string>
+    <string name="str_items">Items</string>
+    <string name="str_selected_items">Selected Items</string>
+
+    <string name="str_notification">Notification</string>
+    <string name="str_warning">Warning</string>
+    <string name="str_error">Error</string>
+
+
+    <string name="str_open">Open</string>
+    <string name="str_close">Close</string>
+    <string name="str_back">Back</string>
+    <string name="str_save">Save</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_share">Share</string>
+    <string name="str_save_as">save as</string>
+    <string name="str_export">Export</string>
+    <string name="str_deal_details">Details</string>
+    <string name="str_deal_date">Date</string>
+    <string name="str_deal_amount">Amount</string>
+    <string name="str_deal_budget">Budget</string>
+    <string name="str_status">Status</string>
+    <string name="str_public_account">Public</string>
+    <string name="str_special_account">Customers</string>
+
+    <string name="str_total_money">Total money</string>
+    <string name="str_order_by">Order by</string>
+    <string name="str_search">Search</string>
+    <string name="str_add">Add</string>
+    <string name="str_add_new">Add new</string>
+    <string name="str_money">000.00</string>
+    <string name="str_date">00-05-2023</string>
+    <string name="str_for_any">do to this reason on the</string>
+    <string name="str_for_it">Out</string>
+    <string name="str_for_you">In</string>
+    <string name="str_in">for you</string>
+    <string name="str_out">on you</string>
+    <string name="add_account_dialog_title">do you want to add this name</string>
+    <string name="str_time">time</string>
+
+    <string name="str_add_amount">add amount</string>
+
+    <string name="str_about">About program</string>
+
+
+    <string name="str_about_text"> in learning road to practice android apps development.</string>
+    <string name="str_about_web">Dev:Sultan Alshojify skmain850@gmail.com</string>
+
+    <string name="str_backup">make backup </string>
+    <string name="str_restoreDB">get backup</string>
+    <string name="str_setting">setting </string>
+    <string name="str_name">name</string>
+    <string name="str_deal_count">trans count</string>
+    <string name="str_report_all">general report </string>
+    <string name="str_report_details">all details report </string>
+    <string name="str_success">success </string>
+    <string name="str_failed">failed </string>
+    <string name="str_done">done </string>
+    <string name="str_not_done">not done </string>
+    <string name="str_wait">Wait ... </string>
+    <string name="str_exel">Exel </string>
+    <string name="str_sms">SMS</string>
+    <string name="str_image">image</string>
+    <string name="str_not_found">not found </string>
+    <string name="str_wait_dots">... </string>
+    <string name="str_backing_up">backup operation</string>
+    <string name="str_restoring">restore operation</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    for calc-->
+    <string name="oneText">1</string>
+    <string name="twoText">2</string>
+    <string name="threeText">3</string>
+    <string name="fourText">4</string>
+    <string name="fiveText">5</string>
+    <string name="sixText">6</string>
+    <string name="sevenText">7</string>
+    <string name="eightText">8</string>
+    <string name="nineText">9</string>
+    <string name="zeroText">0</string>
+
+
+    <string name="clearText">C</string>
+    <string name="parenthesesOpenText">(</string>
+    <string name="parenthesesCloseText">)</string>
+    <string name="dinideText">÷</string>
+    <string name="multiplateText">×</string>
+    <string name="addationText">+</string>
+    <string name="subtractionText">-</string>
+    <string name="equalText">=</string>
+    <string name="dotText">.</string>
+    <string name="backspaceText"> </string>
+
+
+
+</resources>

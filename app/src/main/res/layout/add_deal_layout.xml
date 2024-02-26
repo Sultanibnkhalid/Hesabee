@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="200dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_add_deal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:id="@+id/tv_add_deals_account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="44dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:backgroundTint="@color/black"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_add_deals_account_name" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/et_add_deal_amount"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:hint="@string/str_deal_amount"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cl_add_deal" />
+
+
+        <ImageView
+            android:id="@+id/iv_add_deal_calculator"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="0dp"
+            app:layout_constraintEnd_toStartOf="@+id/et_add_deal_amount"
+            app:layout_constraintTop_toBottomOf="@id/cl_add_deal"
+            app:srcCompat="@drawable/ic_calculator_red" />
+
+        <TextView
+            android:id="@+id/et_add_deal_deal_date"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="4dp"
+            android:clickable="true"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:hint="@string/str_date"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/iv_add_deal_calculator"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cl_add_deal" />
+
+        <EditText
+            android:id="@+id/et_add_account_deal_details"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="textPersonName"
+            android:hint="@string/str_deal_details"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_add_deal_amount" />
+
+        <ImageView
+            android:id="@+id/iv_add_account_deal_img"
+            android:layout_width="52dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/et_add_account_deal_details"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_add_deal_deal_date"
+            app:srcCompat="@drawable/ic_camera_red" />
+
+        <Button
+            android:id="@+id/btn_save_on_account_deals"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/tanAcent"
+            android:drawableLeft="@drawable/img_tringle_red"
+            android:padding="0dp"
+            android:text="@string/str_for_it"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_add_account_deal_details"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_save_for_account_deals"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/tanAcent"
+            android:drawableLeft="@drawable/img_trigle_green"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/str_for_you"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_save_on_account_deals"
+            app:layout_constraintHorizontal_bias="0.815"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_add_account_deal_details"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

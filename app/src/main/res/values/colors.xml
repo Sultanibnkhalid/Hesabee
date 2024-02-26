@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blackStart">#060607</color>
+    <color name="blueBlack">#111f28</color>
+    <color name="greyEnd">#484e52</color>
+    <color name="redBackground">#5a020b</color>
+    <color name="brown1"> #6A5176</color>
+    <color name="tanAcent">#e3cdb3</color>
+    <color name="grey">#afb9c5</color>
+    <color name="red">#ff0000</color>
+    <color name="greenBackground">#103300</color>
+    <color name="green">#2eed64</color>
+    <color name="purpleBackground">#330133</color>
+    <color name="purpleAcent">#de00de</color>
+    <color name="purpleAcent2">#B151EB</color>
+    <color name="black2">#0D0214</color>
+    <color name="purpleAcent3">#8332AB</color>
+
+    <color name="blueblack">#111f28</color>
+    <color name="primary_500">#6200EE</color>
+    <color name="primary_200">#BB86FC</color>
+    <color name="primaryVariant_700">#3700B3</color>
+    <color name="secondary_200">#03DAC6</color>
+    <color name="secondary_variant">#FFFFFFFF</color>
+    <color name="error_1">#B00020</color>
+    <color name="error_2">#CF6679</color>
+    <color name="darkBackground">#121212</color>
+    <color name="background_2">#fffffbfe</color>
+
+    <color name="colorOnErrorContainer_light">#ff410e0b</color>
+    <color name="colorOnErrorContainer_dark">#fff2b8b5</color>
+
+    <color name="sksh_color1">#57B8FF</color>
+    <color name="Surface_Variant">#74539D</color>
+    <color name="InverseSurfaceVariant">#0508FF</color>
+    <color name="InverseSurfaceVariantLight">#ffe6e1e5</color>
+</resources>

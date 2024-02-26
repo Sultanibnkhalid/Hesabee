@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sulta/AndroidStudioProjects/COUNTSKSH/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2155" />
+        <entry key="..\:/Users/sulta/AndroidStudioProjects/COUNTSKSH/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/my_repos/Hesabee/app/src/main/res/layout/activity_main.xml" value="0.20878623188405798" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable-v24/app_background.xml" value="0.1" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable-v24/button_background.xml" value="0.1" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable-v24/button_clear_background.xml" value="0.1" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable-v24/button_delete_background.xml" value="0.2055" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable-v24/button_equal_background.xml" value="0.1" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2055" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable-v24/text_view_count_background.xml" value="0.2055" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable/ic_baseline_exposure_plus_1_24.xml" value="0.201" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2055" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2055" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable/three_dots_background.xml" value="0.1905" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable/vc_back_row.xml" value="0.1905" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable/vc_delete.xml" value="0.1905" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable/vc_plus.xml" value="0.201" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/drawable/vc_plus_blue.xml" value="0.201" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/about_layout.xml" value="0.25" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/activity_account_details.xml" value="0.25" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/activity_add_account.xml" value="0.375" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/activity_main.xml" value="0.125" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/activity_total_amount_report.xml" value="0.18342391304347827" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/add_account_dialog_layout.xml" value="0.13496376811594202" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/add_account_layout.xml" value="0.25" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/add_account_phone_layout.xml" value="0.16983695652173914" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/add_deal_layout.xml" value="0.25" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/calculator_dialog_layout.xml" value="0.375" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/camera_or_image_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/deal_deatails_layout.xml" value="0.25" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/deal_details_dialog_layout.xml" value="0.25" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/edit_deal_dialog_layout.xml" value="0.25" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/edit_deal_layout.xml" value="0.16983695652173914" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/edit_details_view_layout.xml" value="0.375" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/export_option_dialog_layout.xml" value="0.22239583333333332" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/main_activity_account_layout.xml" value="0.25" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/main_activity_navigation_view_header_layout.xml" value="0.18342391304347827" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/ok_cancel_dialog_layout.xml" value="0.16893115942028986" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/ok_cancel_layoyt.xml" value="0.17753623188405798" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/t_a_r_a_recycleview_layout.xml" value="0.18342391304347827" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/layout/total_report_sub_details_layout.xml" value="0.17255434782608695" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/menu/edit_deal_menu.xml" value="0.19791666666666666" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/menu/main_activity_side_bare_menu.xml" value="0.22239583333333332" />
+        <entry key="..\:/working_files_since_1_1_2023/android/COUNTSKSH/app/src/main/res/menu/main_bottom_app_bar_menu.xml" value="0.19791666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.125" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
